@@ -1,0 +1,6 @@
+framework module Pods_handsOnAi {
+  umbrella header "Pods-handsOnAi-umbrella.h"
+
+  export *
+  module * { export * }
+}

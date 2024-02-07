@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		202FBF832B29B54300292D2C /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202FBF822B29B54300292D2C /* ModelManager.swift */; };
+		20C2540D2B60569E00D4468D /* hand_landmarker.task in Resources */ = {isa = PBXBuildFile; fileRef = 20C2540C2B60569E00D4468D /* hand_landmarker.task */; };
+		20D4A09A2B2993270062EEBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D4A0992B2993270062EEBB /* AppDelegate.swift */; };
+		20D4A09C2B2993270062EEBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D4A09B2B2993270062EEBB /* SceneDelegate.swift */; };
+		20D4A09E2B2993270062EEBB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D4A09D2B2993270062EEBB /* HomeViewController.swift */; };
+		20D4A0A12B2993270062EEBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D4A09F2B2993270062EEBB /* Main.storyboard */; };
+		20D4A0A42B2993270062EEBB /* handsOnAi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20D4A0A22B2993270062EEBB /* handsOnAi.xcdatamodeld */; };
+		20D4A0A62B29932B0062EEBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D4A0A52B29932B0062EEBB /* Assets.xcassets */; };
+		20D4A0A92B29932B0062EEBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D4A0A72B29932B0062EEBB /* LaunchScreen.storyboard */; };
+		20D4A0B12B2998840062EEBB /* ASLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D4A0B02B2998830062EEBB /* ASLViewController.swift */; };
+		20D4A0B52B29A50B0062EEBB /* labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 20D4A0B42B29A50B0062EEBB /* labels.txt */; };
+		20D4A0B72B29ACFC0062EEBB /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D4A0B62B29ACFC0062EEBB /* HistoryTableViewController.swift */; };
+		20D4A0C62B29B1880062EEBB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20D4A0C52B29B1880062EEBB /* GoogleService-Info.plist */; };
+		BD0D52A7A3603A4DB42CFDB1 /* Pods_handsOnAi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40198600E367540215C889F1 /* Pods_handsOnAi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		202FBF822B29B54300292D2C /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		20C2540C2B60569E00D4468D /* hand_landmarker.task */ = {isa = PBXFileReference; lastKnownFileType = file; path = hand_landmarker.task; sourceTree = "<group>"; };
+		20D4A0962B2993270062EEBB /* handsOnAi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = handsOnAi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D4A0992B2993270062EEBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20D4A09B2B2993270062EEBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		20D4A09D2B2993270062EEBB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		20D4A0A02B2993270062EEBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20D4A0A32B2993270062EEBB /* handsOnAi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = handsOnAi.xcdatamodel; sourceTree = "<group>"; };
+		20D4A0A52B29932B0062EEBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20D4A0A82B29932B0062EEBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20D4A0AA2B29932B0062EEBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20D4A0B02B2998830062EEBB /* ASLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASLViewController.swift; sourceTree = "<group>"; };
+		20D4A0B42B29A50B0062EEBB /* labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = labels.txt; sourceTree = "<group>"; };
+		20D4A0B62B29ACFC0062EEBB /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		20D4A0C52B29B1880062EEBB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		40198600E367540215C889F1 /* Pods_handsOnAi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_handsOnAi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BF05AD952C536129679963 /* Pods-handsOnAi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-handsOnAi.release.xcconfig"; path = "Target Support Files/Pods-handsOnAi/Pods-handsOnAi.release.xcconfig"; sourceTree = "<group>"; };
+		EEF64123BA9EBFCF07C20802 /* Pods-handsOnAi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-handsOnAi.debug.xcconfig"; path = "Target Support Files/Pods-handsOnAi/Pods-handsOnAi.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20D4A0932B2993270062EEBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0D52A7A3603A4DB42CFDB1 /* Pods_handsOnAi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2025C3D12B61363400F8C356 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		20D4A08D2B2993270062EEBB = {
+			isa = PBXGroup;
+			children = (
+				20D4A0982B2993270062EEBB /* handsOnAi */,
+				20D4A0972B2993270062EEBB /* Products */,
+				6F3D392E63E53FDCCD957EE8 /* Pods */,
+				EE3038BA9B2C93C433A3FEDE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20D4A0972B2993270062EEBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20D4A0962B2993270062EEBB /* handsOnAi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20D4A0982B2993270062EEBB /* handsOnAi */ = {
+			isa = PBXGroup;
+			children = (
+				20C2540C2B60569E00D4468D /* hand_landmarker.task */,
+				20D4A0B42B29A50B0062EEBB /* labels.txt */,
+				20D4A0992B2993270062EEBB /* AppDelegate.swift */,
+				20D4A09B2B2993270062EEBB /* SceneDelegate.swift */,
+				20D4A09D2B2993270062EEBB /* HomeViewController.swift */,
+				20D4A0B02B2998830062EEBB /* ASLViewController.swift */,
+				20D4A0B62B29ACFC0062EEBB /* HistoryTableViewController.swift */,
+				20D4A09F2B2993270062EEBB /* Main.storyboard */,
+				20D4A0A52B29932B0062EEBB /* Assets.xcassets */,
+				20D4A0A72B29932B0062EEBB /* LaunchScreen.storyboard */,
+				20D4A0AA2B29932B0062EEBB /* Info.plist */,
+				20D4A0C52B29B1880062EEBB /* GoogleService-Info.plist */,
+				20D4A0A22B2993270062EEBB /* handsOnAi.xcdatamodeld */,
+				2025C3D12B61363400F8C356 /* frameworks */,
+				202FBF822B29B54300292D2C /* ModelManager.swift */,
+			);
+			path = handsOnAi;
+			sourceTree = "<group>";
+		};
+		6F3D392E63E53FDCCD957EE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEF64123BA9EBFCF07C20802 /* Pods-handsOnAi.debug.xcconfig */,
+				73BF05AD952C536129679963 /* Pods-handsOnAi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE3038BA9B2C93C433A3FEDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40198600E367540215C889F1 /* Pods_handsOnAi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20D4A0952B2993270062EEBB /* handsOnAi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D4A0AD2B29932B0062EEBB /* Build configuration list for PBXNativeTarget "handsOnAi" */;
+			buildPhases = (
+				B080C7FA7A5E0AB99F660F55 /* [CP] Check Pods Manifest.lock */,
+				20D4A0922B2993270062EEBB /* Sources */,
+				20D4A0932B2993270062EEBB /* Frameworks */,
+				20D4A0942B2993270062EEBB /* Resources */,
+				EE11F3A6B13D40CAA605FE28 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = handsOnAi;
+			productName = handsOnAi;
+			productReference = 20D4A0962B2993270062EEBB /* handsOnAi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20D4A08E2B2993270062EEBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					20D4A0952B2993270062EEBB = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 20D4A0912B2993270062EEBB /* Build configuration list for PBXProject "handsOnAi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20D4A08D2B2993270062EEBB;
+			productRefGroup = 20D4A0972B2993270062EEBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20D4A0952B2993270062EEBB /* handsOnAi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20D4A0942B2993270062EEBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C2540D2B60569E00D4468D /* hand_landmarker.task in Resources */,
+				20D4A0A92B29932B0062EEBB /* LaunchScreen.storyboard in Resources */,
+				20D4A0A62B29932B0062EEBB /* Assets.xcassets in Resources */,
+				20D4A0B52B29A50B0062EEBB /* labels.txt in Resources */,
+				20D4A0A12B2993270062EEBB /* Main.storyboard in Resources */,
+				20D4A0C62B29B1880062EEBB /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B080C7FA7A5E0AB99F660F55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-handsOnAi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE11F3A6B13D40CAA605FE28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-handsOnAi/Pods-handsOnAi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-handsOnAi/Pods-handsOnAi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-handsOnAi/Pods-handsOnAi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20D4A0922B2993270062EEBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D4A09E2B2993270062EEBB /* HomeViewController.swift in Sources */,
+				20D4A09A2B2993270062EEBB /* AppDelegate.swift in Sources */,
+				20D4A0B72B29ACFC0062EEBB /* HistoryTableViewController.swift in Sources */,
+				202FBF832B29B54300292D2C /* ModelManager.swift in Sources */,
+				20D4A0B12B2998840062EEBB /* ASLViewController.swift in Sources */,
+				20D4A09C2B2993270062EEBB /* SceneDelegate.swift in Sources */,
+				20D4A0A42B2993270062EEBB /* handsOnAi.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20D4A09F2B2993270062EEBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20D4A0A02B2993270062EEBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20D4A0A72B29932B0062EEBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20D4A0A82B29932B0062EEBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20D4A0AB2B29932B0062EEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20D4A0AC2B29932B0062EEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20D4A0AE2B29932B0062EEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEF64123BA9EBFCF07C20802 /* Pods-handsOnAi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B5L96895PZ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = handsOnAi/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/MediaPipeTasksCommon/frameworks/graph_libraries",
+					"$(PROJECT_DIR)/handsOnAi/frameworks/MediaPipeTasksCommon/frameworks/graph_libraries",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreInternal\"",
+					"-framework",
+					"\"FirebaseInstallations\"",
+					"-framework",
+					"\"FirebaseMLModelDownloader\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleDataTransport\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"MediaPipeTasksCommon\"",
+					"-framework",
+					"\"MediaPipeTasksVision\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SwiftProtobuf\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"nanopb\"",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "\"${PODS_ROOT}/MediaPipeTasksCommon/frameworks/graph_libraries/libMediaPipeTasksCommon_simulator_graph.a\"";
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
+					"$(inherited)",
+					"-force_load",
+					"\"${PODS_ROOT}/MediaPipeTasksCommon/frameworks/graph_libraries/libMediaPipeTasksCommon_simulator_graph.a\"",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = (
+					"$(inherited)",
+					"-force_load",
+					"\"${PODS_ROOT}/MediaPipeTasksCommon/frameworks/graph_libraries/libMediaPipeTasksCommon_simulator_graph.a\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.schule.handsOnAi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20D4A0AF2B29932B0062EEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73BF05AD952C536129679963 /* Pods-handsOnAi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B5L96895PZ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = handsOnAi/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/MediaPipeTasksCommon/frameworks/graph_libraries",
+					"$(PROJECT_DIR)/handsOnAi/frameworks/MediaPipeTasksCommon/frameworks/graph_libraries",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.schule.handsOnAi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20D4A0912B2993270062EEBB /* Build configuration list for PBXProject "handsOnAi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D4A0AB2B29932B0062EEBB /* Debug */,
+				20D4A0AC2B29932B0062EEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20D4A0AD2B29932B0062EEBB /* Build configuration list for PBXNativeTarget "handsOnAi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D4A0AE2B29932B0062EEBB /* Debug */,
+				20D4A0AF2B29932B0062EEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		20D4A0A22B2993270062EEBB /* handsOnAi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				20D4A0A32B2993270062EEBB /* handsOnAi.xcdatamodel */,
+			);
+			currentVersion = 20D4A0A32B2993270062EEBB /* handsOnAi.xcdatamodel */;
+			path = handsOnAi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 20D4A08E2B2993270062EEBB /* Project object */;
+}
